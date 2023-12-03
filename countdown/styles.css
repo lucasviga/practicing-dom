@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #03001C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+}
+
+.app {
+  text-align: center;
+  background: #18122B;
+  width: 300px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.timer {
+  color: #F4ABC4;
+  font-size: 3rem;
+}
+
+.btn-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-controls button {
+  border: none;
+  outline: 0;
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.btn-controls .btn-start {
+ background: #B6EADA; 
+ color: #301E67;
+}
+
+.btn-controls .btn-reset {
+  background: #ffffff;
+  color: #301E67;
+}

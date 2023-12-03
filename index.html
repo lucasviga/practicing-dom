@@ -1,0 +1,41 @@
+<html>
+  <body>    
+    <!-- <button id="create-text" type="button">Create text</button>
+    <button id="clear-text" type="button">Clear Text</button> -->
+
+    <div class="container"></div>
+
+    <!-- <button id="increase" type="button">+ 1</button> -->
+  </body>
+
+  <script>
+    // window.onload = () => {
+    //   const heading = document.createElement("h1");
+    //   const headingText = document.createTextNode("Hello World");
+    //   heading.appendChild(headingText);
+    //   document.body.appendChild(heading)
+    // }
+
+    const div = document.body.querySelector('.container');
+    let count = 0;
+
+    window.onload = () => {
+      div.textContent = count;
+    }  
+
+    // const createTextBtn = document.body.querySelector("#create-text");
+    // createTextBtn.addEventListener('click', () => {
+    //   div.textContent = "Set my first text using DOM directly."
+    // })
+
+    // const clearTextBtn = document.body.querySelector('#clear-text');
+    // clearTextBtn.addEventListener('click', () => {
+    //   div.textContent = ""
+    // })    
+
+    const plusOneBtn = document.body.querySelector("#increase");
+    plusOneBtn.addEventListener("click", () => {
+      div.textContent = count+= 1;
+    })
+  </script>
+</html>
